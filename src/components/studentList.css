@@ -1,0 +1,50 @@
+ul{
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 0px;
+    border-radius: 5px;
+}
+
+h1{
+    font-size: 28px;
+    font-style: italic;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 10px;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: gray 0px 1px 10px;
+    margin: 20px 5px;
+    padding: 25px;
+    font-size: 20px;
+}
+
+.count{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    border: 3px solid wheat;
+    padding: 10px 10px;
+}
+
+.buttonCount{
+    margin: 10px 5px;
+}
+
+.buttonCount{
+    border: none;
+    box-shadow: none;
+}
+
+.Appdark .header h1{
+    color: wheat;
+}
+

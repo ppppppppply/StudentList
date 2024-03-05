@@ -1,0 +1,31 @@
+button{
+  background-color: #F6995C;
+  color: #EADFB4 ;
+  cursor: pointer;
+  border: 0px;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+li{
+list-style: none;
+}
+
+main{
+  margin-left: 0;
+  margin-top: 0;
+}
+
+*{
+  color: #51829B;
+  justify-content: center;
+}
+
+body {
+  margin: 0px;
+}

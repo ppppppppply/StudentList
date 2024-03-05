@@ -1,0 +1,60 @@
+.Applight {
+    width: 100%;
+    height: 1000px;
+    background-color: #EADFB4;
+    transition: all 500ms;
+}
+
+
+.Appdark {
+    width: 100%;
+    height: 1000px;
+    background-color: #162447;
+    transition: all 500ms;
+}
+
+.Appdark nav,
+.Appdark .logo,
+.Appdark .container_theme,
+.Appdark .btn_Menu,
+.Appdark svg,
+.container_svg {
+    background-color: #1F4068;
+    transition: all 500ms;
+}
+
+.Appdark .logo {
+    background-color: #1F4068;
+    transition: all 500ms;
+}
+
+.Appdark .container_theme {
+    background-color: #1F4068;
+    transition: all 500ms;
+}
+
+.Appdark .btn_Menu {
+    background-color: #1F4068;
+    transition: all 500ms;
+}
+
+.Appdark svg {
+    background-color: #1F4068;
+    transition: all 500ms;
+}
+
+.Appdark .container_svg {
+    background-color: #1F4068;
+    transition: all 500ms;
+}
+
+
+
+.Applight nav,
+.Applight .logo,
+.Applight .container_theme,
+.Applight .btn_Menu,
+.Applight .container_svg {
+    background-color: #51829B;
+    transition: all 500ms;
+}

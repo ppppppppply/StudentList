@@ -1,0 +1,29 @@
+.male{
+    box-shadow: #69a0cc 0px 0px 10px 0px;
+}
+
+.female{
+    box-shadow: #bc69cc 0px 0px 10px 0px;
+}
+
+.edit{
+    background-color: #9BB0C1;
+}
+
+.Appdark li p {
+    color: wheat;
+}
+
+.btn_list{
+    display: flex;
+    justify-content: center;
+}
+
+.Appdark .btn_list svg{
+    fill:wheat;
+    background-color: #162447;
+}
+
+.Applight .btn_list svg{
+    fill:black;
+}

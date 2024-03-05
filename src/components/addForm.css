@@ -1,0 +1,68 @@
+.container{
+    max-width: 800px;
+    min-height: 60px;
+    margin: 50px auto;
+    padding: 20px;
+    border: #51829B solid 1px;
+    border-radius: 25px;
+}
+
+form{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 20px;
+    flex-wrap: wrap;
+}
+
+input{
+    border: 0px;
+    box-shadow: #9BB0C1 0px 0px 150px 10px;
+    padding: 5px;
+    background-color: rgba(255, 222, 173, 0);
+}
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+input:focus{
+    outline: none;
+    flex-grow: 1;
+    padding: 10px;
+    margin: 10px;
+    /* เวลากดไม่มีกล่องสีดำ  */
+}
+
+.btn-add{
+    font-size: 20PX;
+    font-weight: bold;
+}
+
+select{
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    box-shadow: grey 0px 0px 3px;
+}
+
+.container{
+    padding: 0px 10px;
+    margin-bottom: 0px;
+}
+
+.Appdark .container{
+    background-color: rgba(240, 248, 255, 0.267);
+    border: none;
+    color: bisque;
+}
+
+.Appdark label{
+    color: bisque;
+}
+
+.Appdark input,.Appdark select{
+    box-shadow: none;
+    background-color: antiquewhite;
+}
